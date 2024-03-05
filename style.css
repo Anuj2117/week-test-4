@@ -1,0 +1,274 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: roboto, arial;
+}
+body{
+    background-color: #f2f2f2;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(74, 74, 74);
+}
+.nav{
+    margin-right: 10%;
+    
+}
+.headding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+
+}
+nav h1{
+    color: white;
+    margin:0 5%;
+    padding:5px;
+    border-radius: 10px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding:15px;
+    margin:0.2rem;
+    border-radius: 10px;
+    font-weight:400;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    background-image: url(family-camping-at-sunset.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap:20px;
+    background-attachment: fixed;
+
+}
+.headding h1{
+   font-size: 65px;
+   color: white;
+   display: flex;
+
+}
+.headding p{
+    margin:3%;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+
+}
+#servicebutton{
+    width: 20%;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+#services{
+    padding-top:5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+.servicehedding{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicehedding h3{
+    font-size: 30px;
+    margin:10px;
+    font-weight: 800;
+}
+.servicehedding p{
+    font-size: 20px;
+}
+.servicedata{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.servicedata div{
+    width: 27.5%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    border-radius: 20px;
+}
+.servicedata div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.servicedata div h1 ,p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicedata div p{
+    width:90%;
+    text-align: center;
+}
+.servicedata div h1{
+    margin:4%;
+    font-weight: 600;
+}
+#aboutus{
+    width: 80%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    background-color: white;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding-top:8%;
+}
+#aboutus div{
+    width: 80%;
+    margin:10px;
+    line-height: 40px;
+}
+.aboutheadding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aboutheadding h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.list{
+    margin:15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:5%;
+}
+.footerheadding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.footerheadding h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;   
+}
+.info div{
+    margin-left:10%;
+    display: flex;
+}
+.info div img{
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+ 
+}
+.info div p{
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    margin-left: 10px;
+}
+.contectinfo{
+    display: flex;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.contect-section{
+    width: 50%;
+    margin:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+
+}
+.contect-section .name{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.contect-section .email{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.contect-section textarea{
+    border-radius: 10px;
+    border: none;
+}
+.name::placeholder{
+    padding:10px;
+}
+.email::placeholder{
+    padding:10px
+}
+.contect-section textarea{
+    padding:10px;
+}
+
+.contect-section button{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(5, 5, 5, 0.678);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
